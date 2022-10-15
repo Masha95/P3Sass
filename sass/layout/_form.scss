@@ -1,0 +1,48 @@
+.fas {
+    padding-right: 7px;   
+}
+
+.fa-ustensils {
+    padding-right: 7px;
+}
+
+.fas:hover {
+    color: rgb(104, 18, 104);
+}
+
+.far:hover {
+    background-color: violet;
+}
+
+.far {
+    display: flex;
+    align-items: right;   /*doesn't work yet*/
+    font-size: x-large;
+}
+
+.nouveau {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: $colour-accent;
+    color: green;
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 5%;
+    margin-top: 4%;
+    padding: 5px 5px 5px 7px;
+    object-fit: cover;
+}
+
+.logoFooter {
+    width: 30%;
+    height: auto;
+    padding-bottom: 5%;
+    padding-top: 7%;
+    filter: invert($colour-white);     /*doesn't work*/
+}
+
+
+.omf {
+    font-family: "robotoBold";
+    color: white;
+}

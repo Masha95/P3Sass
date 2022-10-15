@@ -1,0 +1,50 @@
+article {
+    width: 90%;
+    height: 225px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: white;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.sectionRestaurants {
+    background-color: #f2f2f2;
+    padding-bottom: 13%;
+}
+
+.logo {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+img {
+    width: 112%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    border: 2px solid white;
+    padding-left: 1px;
+}
+
+.phone{
+    width:7%;
+}
+
+figure {
+    padding-left: 0;
+    margin-inline-start: 0;
+}
+
+figcaption {
+    padding-left: 10px;
+}
+
+footer {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding-left: 5%;
+    padding-bottom: 8%;
+}

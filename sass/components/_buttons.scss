@@ -1,0 +1,28 @@
+.btn {
+    border-radius: 45px;
+    background-color: $colour-secondary;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 50%;
+    box-shadow: 5px 5px 5px grey;
+    color: white;
+    font-size: 11pt;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+}
+
+.destination {
+    border-top: 3px solid rgb(69, 68, 68);   /*A revoir à cause du border inset*/
+    border-radius: 0%;
+    background-color: #d6d5d5;
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 13pt;
+    color: black;
+}

@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(./police/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'RobotoRegular', sans-serif;
+    padding-top: 13%;
+    padding-left: 2%;
+    font-style: bold;
+    color: black;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: larger;
+    font-weight: bold;  /*doesn't work*/
+}
+
+span {
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    height: 150px;     /*A verifier*/
+}
+
+.textePalette {
+    display: flex;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2.75rem;
+}
+
+.chiffre1 {
+    width: 10%;
+    height: 10%;
+    object-fit: none;
+    margin-left: -38px;
+    margin-right: 7%;
+}
+
+.chiffre2 {
+    width: 9%;
+    height: 22px;
+    object-fit: contain;
+    margin-left: -38px;
+    margin-right: 7%;
+}
+
+.chiffre3 {
+    width: 9%;
+    height: 10%;
+    object-fit: contain;
+    margin-left: -38px;
+    margin-right: 7%;
+}
+
+.chiffre1:hover, .chiffre2:hover, .chiffre3:hover {
+    color:rgb(104, 18, 104)
+}
+
+div{
+    font-family: "RobotoRegular";
+}
