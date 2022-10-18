@@ -8,9 +8,32 @@ article {
     box-shadow: 5px 5px 5px grey;
 }
 
+ul {
+    width: 85%;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    background-color: white;
+    box-shadow: 5px 5px 5px grey;
+    text-decoration: none;       /*doesn't work*/
+}
+
+li {
+    text-decoration: none;    /* doesn't work*/
+}
+
 .sectionRestaurants {
     background-color: #f2f2f2;
     padding-bottom: 13%;
+}
+
+.sectionMenu {
+    background-color: #f2f2f2;
+    border-radius: 20px 20px 0 0;
+    margin-top: -18%;
+    position: relative;
+    padding-bottom: 10%;
 }
 
 .logo {
@@ -21,12 +44,10 @@ article {
 }
 
 img {
-    width: 112%;
+    width: 113%;
     height: auto;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
-    border: 2px solid white;
-    padding-left: 1px;
 }
 
 .phone{
@@ -47,4 +68,5 @@ footer {
     color: white;
     padding-left: 5%;
     padding-bottom: 8%;
+    line-height: 20pt;
 }

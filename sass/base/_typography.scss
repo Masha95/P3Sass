@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RobotoRegular', sans-serif;
 }
 
 h1 {
@@ -21,7 +21,13 @@ h2 {
     font-weight: bold;  /*doesn't work*/
 }
 
-span {
+h3 {
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+p {
     font-size: small;
 }
 
@@ -30,18 +36,22 @@ a {
     height: 150px;     /*A verifier*/
 }
 
+li {
+    text-decoration: none;    /*doesn't work*/
+}
+
 .textePalette {
     display: flex;
 }
 
 textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RobotoRegular', sans-serif;
     font-weight: 100;
     font-size: 2rem;
 }
 
 button {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RobotoRegular', sans-serif;
     font-weight: 900;
     font-style: italic;
     font-size: 2.75rem;

@@ -26,7 +26,7 @@
     background-color: $colour-accent;
     color: green;
     position: absolute;
-    margin-left: 55%;
+    margin-left: 68%;
     margin-right: 5%;
     margin-top: 4%;
     padding: 5px 5px 5px 7px;
@@ -38,5 +38,5 @@
     height: auto;
     padding-bottom: 5%;
     padding-top: 7%;
-    filter: invert($colour-white);     /*doesn't work*/
+    filter: invert(1);
 }
