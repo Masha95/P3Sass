@@ -10,7 +10,7 @@ body {
 h1 {
     font-family: 'RobotoRegular', sans-serif;
     padding-top: 13%;
-    padding-left: 2%;
+    padding-left: 4%;
     font-style: bold;
     color: black;
 }
@@ -22,22 +22,32 @@ h2 {
 }
 
 h3 {
-    color: red;
-    font-size: larger;
-    font-weight: bolder;
+    color: black;
+
 }
 
 p {
-    font-size: small;
+    font-family: "RobotoRegular";
+    font-size: medium;
+    color: grey;
+    line-height: 15pt;
 }
 
 a {
     text-decoration: none;
-    height: 150px;     /*A verifier*/
+    font-weight: 600;
+    color: black;
+}
+
+ul {
+    display: flex;
+    & .price {
+        display: block;
+    }           /*A regarder*/
 }
 
 li {
-    text-decoration: none;    /*doesn't work*/
+    list-style-type: none;
 }
 
 .textePalette {
