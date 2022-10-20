@@ -9,18 +9,13 @@ article {
 }
 
 ul {
-    width: 85%;
-    height: 70px;
-    border-radius: 10px;
+    width: 92%;
+    height: 75px;
+    border-radius: 15px;
     margin-bottom: 5%;
-    margin-left: 1%;
+    margin-left: 3%;
     background-color: white;
     box-shadow: 5px 5px 5px grey;
-    text-decoration: none;       /*doesn't work*/
-}
-
-li {
-    text-decoration: none;    /* doesn't work*/
 }
 
 .sectionRestaurants {
@@ -30,8 +25,8 @@ li {
 
 .sectionMenu {
     background-color: #f2f2f2;
-    border-radius: 20px 20px 0 0;
-    margin-top: -18%;
+    border-radius: 25px 25px 0 0;
+    margin-top: -25%;
     position: relative;
     padding-bottom: 10%;
 }
@@ -50,7 +45,7 @@ img {
     object-fit: cover;
 }
 
-.phone{
+.phone {
     width:7%;
 }
 
