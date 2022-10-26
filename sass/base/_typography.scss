@@ -6,13 +6,14 @@
 h1 {
     font-family: 'RobotoRegular', sans-serif;
     padding-top: 10%;
-    padding-left: 4%;
+    padding-left: 5%;
     font-style: bold;
     color: black;
 }
 
 h2 {
     font-family: "RobotoThin", sans-serif;
+    font-weight: lighter;
     margin-bottom: 5px;
     font-size: larger;
     padding-left: 4%;
@@ -20,20 +21,22 @@ h2 {
     color: grey;
     background-image: linear-gradient($colour-accent 0 0);
     background-position: 5% 100%; /*Adjust the background-position to move the line*/
-    background-size: 14% 3px; /*Adjust the background size to control length and height*/
+    background-size: 13% 3px; /*Adjust the background size to control length and height*/
     background-repeat: no-repeat;
     padding-bottom: 6px; /* this can also control the position */
 }
 
 h3 {
+    font-family: "RobotoRegular", sans-serif;
     color: black;
     margin-bottom: 2pt;
 }
 
 p {
-    font-family: "RobotoThin";
     color: grey;
-    line-height: 4pt;
+    line-height: 0pt;
+    font-family: "RobotoThin", sans-serif;
+    font-weight: lighter;
 }
 
 a {
@@ -84,6 +87,8 @@ div {
 }
 
 .chiffre1, .chiffre2, .chiffre3 {
+    font-family: "RobotoThin", sans-serif;
+    font-weight: lighter;
     width: 4%;
     line-height: 140%;
     position: absolute;
@@ -95,4 +100,10 @@ div {
     color: white;
     $colour-primary: #9356DC;
     background-color: $colour-primary;
+}
+
+.proposerUnRestaurant, .devenirPartenaire, .mentions, .contact {
+    font-family: "RobotoRegular", sans-serif;
+    line-height: 20pt;
+    font-size: unset;
 }

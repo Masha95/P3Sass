@@ -32,10 +32,26 @@ li {
 }
 
 .logo {
+    width: 48%;
+    margin-left: 12%;
+    margin-bottom: 1%;
+    margin-top: 4%;
+}
+
+.logoIndex {
     width: 50%;
     margin-left: 25%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.mobile-screen-solid {
+    width: 6%;
+    height: auto;
+    border-radius: initial;
+    padding-right: 1%;
+    &:hover {
+        color: $colour-primary;   /*doesn't work yet*/
+    }
 }
 
 img {
@@ -45,20 +61,21 @@ img {
     object-fit: cover;
 }
 
-/* to cancel   
-.phone {
-    width:7%;
-    margin-right: 10%;   
-}
-*/
-
 figure {
     padding-left: 0;
     margin-inline-start: 0;
 }
 
 figcaption {
+    font-family: "RobotoRegular", sans-serif;
+    font-size: large;
     padding-left: 10px;
+    &span {                          /*doesn't work*/
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        position: absolute;
+    }
 }
 
 footer {

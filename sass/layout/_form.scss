@@ -1,5 +1,9 @@
 .fas {
     padding-right: 7px;
+    &:hover{
+        $colour-primary: #9356DC;
+        color: $colour-primary;
+    }
 }
 
 .fa-map-marker-alt {
@@ -11,41 +15,34 @@
     margin-right: 1%;
 }
 
-.fa-list-ul, .fa-store {
+.fa-list-ul, .fa-store, .mobile-screen-solid {
     margin-right: 6%;
     margin-left: 4%;
 }
 
-.fas:hover {
-    color: rgb(104, 18, 104);
-}
-
-.far:hover {
-    background-color: violet;
-}
-
-.far {
-    display: flex;
-    align-items: right;   /*doesn't work yet*/
-    font-size: x-large;
-}
-
 .fa-heart {
-    background: rgb(147,86,220);
-    background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+    display: flex;
+    display: block;   /* doesn't work*/
+    flex-direction: row;
+    &.fa-heart:hover {
+        animation-duration: 4s;
+        background: rgb(147,86,220);
+        background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+    }
 }
 
 .nouveau {
-    border-radius: 4px;
+    font-family: "RobotoThin", sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    border-radius: 3px;
     background-color: $colour-accent;
     color: green;
     position: absolute;
-    margin-left: 65%;
-    margin-right: 10%;
+    margin-left: 69%;
     margin-top: 4%;
     padding: 5px 10px 5px 10px;
     object-fit: cover;
-    font-family: "RobotoThin";      /*Doesn't work yet*/
 }
 
 .logoFooter {
