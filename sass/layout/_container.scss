@@ -55,7 +55,7 @@ li {
 }
 
 img {
-    width: 113%;
+    width: 338px;
     height: auto;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
@@ -67,7 +67,8 @@ figure {
 }
 
 figcaption {
-    font-family: "RobotoRegular", sans-serif;
+    display: flex;
+    flex-direction: column;
     font-size: large;
     padding-left: 10px;
     &span {                          /*doesn't work*/

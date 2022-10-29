@@ -20,15 +20,22 @@
     margin-left: 4%;
 }
 
-.fa-heart {
-    display: flex;
-    display: block;   /* doesn't work*/
-    flex-direction: row;
-    &.fa-heart:hover {
+.heart {
+    position: absolute;
+    padding-left: 270px;
+    padding-top: 10px;
+    line-height: 18pt;
+    font-size: xx-large;
+    &:hover {                       /*A revoir, c'est juste un début*/
         animation-duration: 4s;
         background: rgb(147,86,220);
         background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
     }
+}
+
+.small-text {
+    display: block;
+    font-family: "RobotoThin", sans-serif;
 }
 
 .nouveau {
