@@ -20,16 +20,30 @@
     margin-left: 4%;
 }
 
-.heart {
+.heartIndex {
     position: absolute;
     padding-left: 270px;
-    padding-top: 10px;
+    padding-top: 9px;
     line-height: 18pt;
     font-size: xx-large;
-    &:hover {                       /*A revoir, c'est juste un début*/
+}
+
+.button:hover {           
+       /*A revoir, c'est juste un début*/                    
         animation-duration: 4s;
         background: rgb(147,86,220);
         background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+        
+}
+
+
+
+.titleRestaurant {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    &.fa-heart {
+        justify-self: flex-end;
     }
 }
 
@@ -62,8 +76,8 @@
 
 .imageRestaurant {
     border-radius: 0%;
-    width: 113%;
-    height: auto;
+    width: 112%;
+    height: 273px;
     object-fit: cover;
     position: relative;
 }

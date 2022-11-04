@@ -1,6 +1,23 @@
 @font-face {
-    font-family: 'RobotoRegular', "RobotoThin";
-    src: url(./police/Roboto-Regular.ttf), url(./police/Roboto-Thin.ttf);
+    font-family: 'RobotoRegular';
+    src: url(./police/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "RobotoThin";
+    src: url(./police/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Shrikhand';
+    src: url(./police/Shrikhand-Regular.ttf);
+}
+
+.titreRestaurant {
+    font-family: "Shrikhand";
+    font-weight: bold;
+    font-size: xx-large;
+    margin-left: 7%;
 }
 
 h1 {
