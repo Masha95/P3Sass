@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'RobotoRegular';
-    src: url(./police/Roboto-Regular.ttf);
+    src: url(../../police/Roboto-Regular.ttf);
 }
 
 @font-face {
-    font-family: "RobotoThin";
-    src: url(./police/Roboto-Thin.ttf);
+    font-family: 'RobotoThin';
+    src: url(../../police/Roboto-Thin.ttf);
 }
 
 @font-face {
     font-family: 'Shrikhand';
-    src: url(./police/Shrikhand-Regular.ttf);
+    src: url(../..//police/Shrikhand-Regular.ttf);
 }
 
 .titreRestaurant {
-    font-family: "Shrikhand";
+    font-family: 'Shrikhand';
     font-weight: bold;
     font-size: xx-large;
     margin-left: 7%;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-    font-family: "RobotoThin", sans-serif;
+    font-family: 'RobotoThin', sans-serif;
     font-weight: lighter;
     margin-bottom: 5px;
     font-size: larger;
@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-    font-family: "RobotoRegular", sans-serif;
+    font-family: 'Roboto-Regular', sans-serif;
     color: black;
     margin-bottom: 2pt;
 }
@@ -52,18 +52,18 @@ h3 {
 p {                         /*revoir small-text, anciennement appelé <p>*/
     color: grey;
     line-height: 0pt;
-    font-family: "RobotoThin", sans-serif;
+    font-family: 'RobotoThin', sans-serif;
     font-weight: lighter;
 }
 
 .main-text {
-    font-family: "RobotoRegular", sans-serif;
+    font-family: 'RobotoRegular', sans-serif;
 }
 
 .small-text {
     line-height: 25pt;
     color: grey;
-    font-family: "RobotoThin", sans-serif;
+    font-family: 'RobotoThin', sans-serif;
     font-weight: lighter;
 }
 
@@ -110,12 +110,12 @@ button {
 }
 
 div {
-    font-family: "RobotoRegular";
+    font-family: 'RobotoRegular';
     font-size: large;
 }
 
 .chiffre1, .chiffre2, .chiffre3 {
-    font-family: "RobotoThin", sans-serif;
+    font-family: 'RobotoThin', sans-serif;
     font-weight: lighter;
     width: 4%;
     line-height: 165%;
@@ -131,7 +131,7 @@ div {
 }
 
 .proposerUnRestaurant, .devenirPartenaire, .mentions, .contact {
-    font-family: "RobotoRegular", sans-serif;
+    font-family: 'RobotoRegular', sans-serif;
     line-height: 20pt;
     font-size: unset;
 }
