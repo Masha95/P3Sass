@@ -1,23 +1,22 @@
-.fas {
-    padding-right: 7px;
-    &:hover{
-        $colour-primary: #9356DC;
-        color: $colour-primary;
-    }
-}
-
-.fa-map-marker-alt {
+.fa-location-dot {
     margin-right: 5%;
 }
 
 .fa-utensils {
-    padding-right: 7px;
-    margin-right: 1%;
+    padding-right: 14px;
 }
 
-.fa-list-ul, .fa-store, .mobile-screen-solid {
-    margin-right: 6%;
+.fa-handshake-angle {
+    padding-right: 7px;
+}
+
+.fa-list-ul, .fa-store, .fa-mobile-screen {
+    margin-right: 7%;
     margin-left: 4%;
+    &:hover{
+        $colour-primary: #9356DC;
+        color: $colour-primary;
+    }
 }
 
 .heartIndex {
@@ -32,8 +31,7 @@
        /*A revoir, c'est juste un début*/                    
         animation-duration: 4s;
         background: rgb(147,86,220);
-        background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
-        
+        background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%); 
 }
 
 .titleRestaurant {
