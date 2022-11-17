@@ -19,9 +19,9 @@ li {
     transform: translateY(3rem);
     animation: slide-up 0.75s ease-in-out forwards;
 
-    &:nth-child(2) {
+    &:nth-child(2) {                        /*ideas only for now*/
         animation-delay: 0.4s;
-    }
+    }                   
     &:nth-child(3) {
         animation-delay: 0.8s;
     }
@@ -48,7 +48,6 @@ li {
     width: 48%;
     height: fit-content;
     margin-left: 12%;
-    margin-bottom: 1%;
     margin-top: 4%;
 }
 

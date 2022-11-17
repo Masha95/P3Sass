@@ -25,6 +25,16 @@
     padding-top: 5%;
     line-height: 18pt;
     font-size: xx-large;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: blue;
+    &:active {
+        color: rgba(255, 121, 218, 1);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: pink;
+        font-weight: bold;
+    }
 }
 
 .button:hover {           

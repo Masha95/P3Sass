@@ -23,7 +23,8 @@
 
 h1 {
     font-family: 'RobotoRegular', sans-serif;
-    padding-top: 10%;
+    padding-top: 12%;
+    padding-bottom: 2%;
     padding-left: 5%;
     font-style: bold;
     color: black;
@@ -76,6 +77,9 @@ a {
     text-decoration: none;
     font-weight: 600;
     color: black;
+    &.contact {         /*doesn't work on .contact*/
+        text-decoration: none;
+    }
 }
 
 ul {
