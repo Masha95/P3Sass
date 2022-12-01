@@ -1,0 +1,31 @@
+@mixin heart-gradient {
+    position: relative;
+    left: 90%;
+    top: -55%;
+
+    &--empty {
+        color: black;
+
+        &::before {
+            font-size: 1.5em;
+        }
+    }
+
+    &--full {
+        position: relative;
+        opacity: 0;
+        color: transparent;
+        background: linear-gradient(pink,purple);
+        background-clip: text;
+        right: 28px;
+
+        &:hover {
+            transition: opacity 0.5s ease-out;
+            opacity: 1;
+        }
+
+        &::before {
+            font-size: 1.5em;
+        }
+    }
+}

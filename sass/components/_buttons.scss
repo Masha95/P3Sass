@@ -2,6 +2,22 @@
     border-radius: 45px;
     background: rgb(147,86,220);
     background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+    margin-bottom: 8%;
+    margin-left: 20%;
+    margin-top: 26%;
+    width: 50%;
+    box-shadow: 5px 5px 5px grey;
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-family: 'RobotoRegular', sans-serif;
+}
+
+.btnExplore {
+    border-radius: 45px;
+    background: rgb(147,86,220);
+    background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
     margin-bottom: 5%;
     margin-left: 20%;
     margin-top: 10%;
@@ -12,6 +28,9 @@
     text-align: center;
     padding: 20px 20px 20px 20px;
     font-family: 'RobotoRegular', sans-serif;
+    &:active {
+        background: linear-gradient(0deg, rgba(147,86,220,5) 0%, rgba(255,121,218,5) 100%); /*A revoir pour timing transparence*/
+    }
 }
 
 .destination {

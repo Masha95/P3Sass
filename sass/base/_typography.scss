@@ -15,9 +15,7 @@
 
 .titreRestaurant {
     font-family: 'Shrikhand';
-    font-weight: bold;
-    font-size: 27px;
-    margin-left: 4%;
+    font-size: 30px;
     margin-top: 10%;
 }
 
@@ -74,12 +72,10 @@ p {                         /*revoir small-text, anciennement appelé <p>*/
 }
 
 a {
+    font-family: 'Roboto-Regular', sans-serif;
     text-decoration: none;
     font-weight: 600;
     color: black;
-    &.contact {         /*doesn't work on .contact*/
-        text-decoration: none;
-    }
 }
 
 ul {
@@ -87,9 +83,10 @@ ul {
     flex-direction: column;
     padding-left: 1%;
     & span {
+        font-family: 'RobotoRegular', sans-serif;
+        font-weight: bold;
         display: flex;
         justify-content: right;
-        font-weight: bold;
         margin-right: 5%;
         color: black;
    }
@@ -111,13 +108,6 @@ textarea {
     font-size: 2rem;
 }
 
-button {
-    font-family: 'RobotoRegular', sans-serif;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 2.75rem;
-}
-
 div {
     font-family: 'RobotoRegular';
     font-size: large;
@@ -126,13 +116,15 @@ div {
 .chiffre1, .chiffre2, .chiffre3 {
     font-family: 'RobotoThin', sans-serif;
     font-weight: lighter;
-    width: 4%;
-    line-height: 165%;
+    width: 3%;
+    line-height: 160%;
     position: absolute;
-    font-size: smaller;
-    margin-left: -35px;
+    font-size: small;
+    margin-left: -33px;
     margin-bottom: 10px;
     padding-left: 7px;
+    padding-top: 1px;
+    padding-right: 4px;
     border-radius: 100%;
     color: white;
     $colour-primary: #9356DC;
@@ -143,4 +135,9 @@ div {
     font-family: 'RobotoRegular', sans-serif;
     line-height: 22pt;
     font-size: unset;
+    color: white;
+}
+
+.contact {
+    font-weight: inherit;
 }
